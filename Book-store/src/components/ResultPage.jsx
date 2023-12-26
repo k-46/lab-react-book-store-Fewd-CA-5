@@ -45,10 +45,7 @@ const ResultPage = ({ search }) => {
       {display ? (
         data.map((e) => (
           <div key={e.id} className="book">
-            {/* <div> */}
             <img src={e.imageLinks?.thumbnail} alt="" />
-            {/* search online for this line */}
-            {/* </div> */}
             <div className="bookName">
               <h4>{e.title}</h4>
               <div>
